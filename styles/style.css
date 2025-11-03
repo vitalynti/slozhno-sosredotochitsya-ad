@@ -311,7 +311,6 @@
 
   .section:nth-child(1) .card {
     gap: 10px; 
-  
   }
 
   .section:nth-child(1) .card__title {
@@ -345,6 +344,7 @@
     inline-size: 100%;
     margin-top: -23px;
   }
+
   .section:nth-child(2) .card__title {
     margin-bottom: 8px; 
   }
@@ -369,6 +369,7 @@
     align-items: start;
     height: 1296px;
   }
+
   .section:nth-child(3) .section__title {
     margin-bottom: 0;
     grid-column: 1;
@@ -384,6 +385,7 @@
     margin-right: -10px;
     width: 472px;
   }
+
   .section:nth-child(3) .card {
     gap: 8px; 
   }
@@ -398,6 +400,7 @@
     width: 472px;
     margin-top: -2px;
   }
+
   .gallery__images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -443,9 +446,11 @@
       height: 318px;
       object-fit: cover;
   }
+
 }
 
   @media (min-width: 1024px) {
+    
   .header__theme-menu {
     justify-self: center;
     align-self: start;

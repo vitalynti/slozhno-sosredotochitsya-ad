@@ -1,10 +1,10 @@
-
 :root.theme-dark {
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --title-color: #DB00FF;
   --menu-text-color: #FF0070;
+  --shadow-color: #FF0070;
 }
 
 .theme-dark .page {
@@ -13,7 +13,7 @@
 
 .theme-dark .header__rec,
 .theme-dark .header__rec-dot {
-  display: block; /* показываем REC в тёмной теме */
+  display: block;
 }
 
 .theme-dark .header__theme-menu-button {
@@ -26,4 +26,26 @@
 
 .theme-dark .header__theme-menu-button_active {
   border-color: var(--menu-text-color);
+}
+
+.theme-dark .decorated-zone::before,
+.theme-dark .decorated-zone::after {
+  border-color: var(--accent-color);
+}
+
+.theme-dark .title-decor {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+}
+
+.theme-dark .link {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.theme-dark .link:hover {
+  border-bottom-color: var(--text-color);
+}
+
+.theme-dark .link:focus {
+  outline-color: var(--text-color);
 }
