@@ -237,6 +237,15 @@
     padding: 20px;
   }
   
+  .header__rec {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .header__rec-dot {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
   .decorated-header {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-left: -20px;
@@ -247,7 +256,7 @@
   }
   
   .section {
-    padding: 20px;
+    padding: 30px;
   }
   
   .section__content {
@@ -269,7 +278,108 @@
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+  .section:nth-child(1) .section__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .section:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Заголовок слева, контент справа */
+    gap: 20px;
+    align-items: start;
+  }
+  .section:nth-child(1) .section__title {
+    margin-bottom: 0;
+    grid-column: 1;
+  }
+  
+  .section:nth-child(1) .section__content {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: -20px;
+  }
+  .section:nth-child(1) .card {
+    gap: 8px; /* Уменьшить расстояние между заголовком и текстом */
+  
+  }
+  .section:nth-child(1) .card__title {
+    margin-bottom: 5px; /* Уменьшить отступ после заголовка */
+    padding: 5px 10px; /* Уменьшить внутренние отступы заголовка */
+  }
+  .section:nth-child(1) .card__text {
+    max-inline-size: 472px;
+    width: 472px;
+  }
+  .section:nth-child(2) .card__text {
+    width: 728px;
+  }
+  /* Вторая секция - одна колонка с карточками */
+  .section:nth-child(2) .section__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 728px;
+    margin-left: -10px; /* Отступ между карточками */
+  }
+  
+  /* Карточки занимают всю ширину */
+  .section:nth-child(2) .card {
+    width: 728px;
+  }
+  
+  /* Текст выровнен по левому краю */
+  .section:nth-child(2) .card__text {
+    text-align: left;
+    max-inline-size: none;
+    inline-size: 100%;
+  }
+  .section:nth-child(2) .card__title {
+    margin-bottom: 8px; /* Уменьшить отступ после заголовка */
+    padding: 5px 10px; /* Уменьшить внутренние отступы заголовка */
+  }
+  .section:nth-child(2) .section__title {
+    margin-top: -8px;
+    margin-left: -10px;
+  }
+  .section:nth-child(3) .section__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .section:nth-child(3) {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Заголовок слева, контент справа */
+    gap: 20px;
+    align-items: start;
+  }
+  .section:nth-child(3) .section__title {
+    margin-bottom: 0;
+    grid-column: 1;
+  }
+  
+  .section:nth-child(3) .section__content {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: -20px;
+  }
+  .section:nth-child(3) .card {
+    gap: 8px; /* Уменьшить расстояние между заголовком и текстом */
+  
+  }
+  .section:nth-child(3) .card__title {
+    margin-bottom: 5px; /* Уменьшить отступ после заголовка */
+    padding: 5px 10px; /* Уменьшить внутренние отступы заголовка */
+  }
+  .section:nth-child(3) .card__text {
+    max-inline-size: 472px;
+    width: 472px;
+  }
 }
+
+
 
 @media (min-width: 1024px) {
   .header__theme-menu-list {
