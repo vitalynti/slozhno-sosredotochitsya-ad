@@ -231,6 +231,7 @@
   margin: 0;
 }
 
+
 @media (min-width: 768px) {
   .header {
     padding: 20px;
@@ -388,6 +389,7 @@
     width: 472px;
     margin-top: -2px;
   }
+
   .gallery__images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
