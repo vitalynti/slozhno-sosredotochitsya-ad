@@ -400,7 +400,7 @@
     width: 472px;
     margin-top: -2px;
   }
-
+  
   .gallery__images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -446,11 +446,9 @@
       height: 318px;
       object-fit: cover;
   }
-
 }
 
-  @media (min-width: 1024px) {
-    
+@media (min-width: 1024px) {
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -614,6 +612,16 @@
   }
 }
   
+
+  
+
+
+
+
+
+
+
+
 
   
 
