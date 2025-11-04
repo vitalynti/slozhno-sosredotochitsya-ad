@@ -35,6 +35,7 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
+
 .decorated-zone::before {
   content: '';
   position: absolute;
@@ -137,7 +138,7 @@
 }
 
 .section__title__two {
-  margin-bottom: 20px;
+  margin-top: 2px;
 }
 .title-decor {
   background-color: var(--accent-color);

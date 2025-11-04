@@ -13,11 +13,12 @@
 
 .theme-dark .header__rec,
 .theme-dark .header__rec-dot {
-  display: block; 
+  display: block;
 }
 
 .theme-dark .header__theme-menu-button {
   color: var(--menu-text-color);
+  letter-spacing: -0.2px;
 }
 
 .theme-dark .header__theme-menu-button:hover {
