@@ -31,14 +31,11 @@
   }
 }
 
-.theme-light .page,
-:root:not(.theme-dark):not(.theme-auto) .page {
+.theme-light .header {
   background-image: url("../images/cover-image-light.png");
 }
 
 .theme-light .header__rec,
-.theme-light .header__rec-dot,
-:root:not(.theme-dark):not(.theme-auto) .header__rec,
-:root:not(.theme-dark):not(.theme-auto) .header__rec-dot {
+.theme-light .header__rec-dot {
   display: none;
 }

@@ -11,7 +11,7 @@
   --text-frame: #000028;
 }
 
-.theme-dark .page {
+.theme-dark .header {
   background-image: url("../images/cover-image-dark.png");
 }
 
