@@ -1,4 +1,3 @@
-
 :root.theme-dark {
   --bg-color: #000028;
   --text-color: #F1B2CE;
@@ -9,6 +8,7 @@
   --accent-bg: #FF0070;
   --menu-text-color: #FF0070;
   --accent-footer: #FF0070;
+  --text-frame: #000028;
 }
 
 .theme-dark .page {

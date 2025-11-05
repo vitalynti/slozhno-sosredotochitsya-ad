@@ -1,15 +1,14 @@
 :root {
-  --bg-color: ;
-  --text-color: ;
-  --accent-color: ;
-  --title-color: ;
-  --accent-border: ;
-  --accent-text: ;
-  --accent-bg: ;
-  --menu-text-color: ;
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #DB00FF;
+  --accent-border: #FF0070;
+  --accent-text: #FF0070;
+  --accent-bg: #FF0070;
+  --menu-text-color: #FF0070;
   --font-family: 'IBM Plex mono', monospace;
-  --accent-footer: ;
-  --text-frame: ;
+  --text-frame: #000028;
 }
 
 .page {
