@@ -275,10 +275,6 @@
     margin-top: 57px;
   }
   
-  .gallery__images {
-    gap: 20px;
-  }
-  
   .footer {
     padding: 20px;
   }
@@ -537,10 +533,6 @@
     display: flex;
     flex-direction: column;
     gap: 18px;
-    width: 649px;
-  }
-  
-  .section:nth-child(1) .card__title {
     width: 649px;
   }
 

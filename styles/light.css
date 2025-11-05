@@ -8,6 +8,7 @@
   --accent-bg: #FF8DCB;
   --menu-text-color: #353430;
   --accent-footer: #FF0070;
+  --text-frame: #000028;
 }
 
 @media (prefers-color-scheme: light) {
@@ -21,6 +22,7 @@
     --accent-bg: #FF8DCB;
     --menu-text-color: #353430;
     --accent-footer: #FF0070;
+    --text-frame: #000028;
   }
 
   .header__rec,
