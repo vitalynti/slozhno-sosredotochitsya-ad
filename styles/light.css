@@ -1,10 +1,10 @@
 :root.theme-light {
-  --bg-color: #353430;
+  --bg-color: #FFF1F7;
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --title-color: #FFC2E6;
-  --accent-border: #353430;    
-  --accent-text: #353430;     
+  --accent-border: #353430;
+  --accent-text: #353430;
   --accent-bg: #FF8DCB;
   --menu-text-color: #353430;
   --accent-footer: #FF0070;
@@ -16,8 +16,8 @@
     --text-color: #353430;
     --accent-color: #FF8DCB;
     --title-color: #FFC2E6;
-    --accent-border: #353430;    
-    --accent-text: #353430;     
+    --accent-border: #353430;
+    --accent-text: #353430;
     --accent-bg: #FF8DCB;
     --menu-text-color: #353430;
     --accent-footer: #FF0070;

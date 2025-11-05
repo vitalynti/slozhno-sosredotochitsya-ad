@@ -1,11 +1,15 @@
-:root {
-  /* Только объявляем переменные БЕЗ значений */
+:root {/
   --bg-color: ;
   --text-color: ;
   --accent-color: ;
   --title-color: ;
+  --accent-border: ;
+  --accent-text: ;
+  --accent-bg: ;
   --menu-text-color: ;
   --font-family: 'IBM Plex mono', monospace;
+  --accent-footer: ;
+  --text-frame: ;
 }
 
 .page {

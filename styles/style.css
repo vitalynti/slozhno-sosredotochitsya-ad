@@ -112,7 +112,7 @@
 
 .block-header {
   background-color: var(--accent-bg);
-  color: var(--bg-color);
+  color: var(--text-frame);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.3;
@@ -142,10 +142,10 @@
 
 .title-decor {
   background-color: var(--accent-bg);
-  color: var(--bg-color);
+  color: var(--text-frame);
 }
 
-.title-decor-ok{
+.title-decor-ok {
   margin-top: -2.5px;
 }
 
@@ -201,7 +201,7 @@
   font-weight: 700;
   margin-bottom: 20px;
   background-color: var(--accent-color);
-  color: var(--bg-color);
+  color: var(--text-frame);
   margin-top: 25px;
 }
 
@@ -233,7 +233,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 0.825;
-  text-shadow: 4px 4px 0 var(--accent-footer);
+  text-shadow: 2px 2px 0 var(--accent-footer);
   margin: 0;
 }
 
