@@ -1,7 +1,6 @@
 .page {
   background-color: var(--bg-color);
   color: var(--text-color);
-  background-image: url("../images/cover-image-dark.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -43,8 +42,8 @@
   right: 10px;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--accent-border);
+  border-right: 1px solid var(--accent-border);
 }
 
 .decorated-zone::after {
@@ -54,8 +53,8 @@
   left: 10px;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-border);
+  border-left: 1px solid var(--accent-border);
 }
 
 .decorated-header {
@@ -89,7 +88,7 @@
 .header__theme-menu-button {
   background: none;
   border: 1px solid transparent;
-  color: var(--accent-color);
+  color: var(--accent-text);
   padding: 0px 13px;
   letter-spacing: -0.2px;
 }
@@ -103,7 +102,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--menu-text-color);
+  border-color: var(--accent-border);
 }
 
 .header__theme-menu-button_active {
@@ -112,7 +111,7 @@
 }
 
 .block-header {
-  background-color: var(--accent-color);
+  background-color: var(--accent-bg);
   color: var(--bg-color);
   font-size: 18px;
   font-weight: 700;
@@ -131,7 +130,7 @@
 }
 
 .section__title {
-  color: var(--accent-color);
+  color: var(--accent-text);
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -142,7 +141,7 @@
 }
 
 .title-decor {
-  background-color: var(--accent-color);
+  background-color: var(--accent-bg);
   color: var(--bg-color);
 }
 
@@ -234,7 +233,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 0.825;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--accent-footer);
   margin: 0;
 }
 

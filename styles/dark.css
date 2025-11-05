@@ -4,7 +4,11 @@
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --title-color: #DB00FF;
+  --accent-border: #FF0070;
+  --accent-text: #FF0070;
+  --accent-bg: #FF0070;
   --menu-text-color: #FF0070;
+  --accent-footer: #FF0070;
 }
 
 .theme-dark .page {
